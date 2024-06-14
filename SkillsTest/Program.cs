@@ -157,8 +157,8 @@
             g11.RegisterBooking(AutoIDBooking1);
             g11.RegisterBooking(AutoIDBooking2);
 
-            Console.WriteLine(g11.TotalTimeBooked);
-            Console.WriteLine(g2.TotalTimeBooked);
+            Console.WriteLine($"Total time booked for GymHall g11: {g11.TotalTimeBooked}");
+            Console.WriteLine($"Total time booked for GymHall g2: {g2.TotalTimeBooked}");
         }
     }
 }
