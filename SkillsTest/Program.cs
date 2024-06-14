@@ -140,10 +140,11 @@
             Console.WriteLine(" Test af User stories (Opgave 10):");
             Console.WriteLine("--------------------------");
 
+            //User story 1
             User u1 = new User("Paprika", "12345678", "ps@ps.com");
             Console.WriteLine(u1);
 
-            //Uncommnet denne og Comment så alt over opgave 10 - så virker det...
+            //User story 2
             Booking AutoIDBooking1 = new Booking(new DateTime(2024, 6, 22, 13, 0, 0), new DateTime(2024, 6, 22, 14, 0, 0), 10);
             Booking AutoIDBooking2 = new Booking(new DateTime(2024, 6, 25, 13, 0, 0), new DateTime(2024, 6, 25, 14, 0, 0), 10);
             Console.WriteLine(AutoIDBooking1);
